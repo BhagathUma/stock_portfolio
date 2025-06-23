@@ -6,6 +6,7 @@
 #include <chrono>
 #include <iomanip>
 #include <thread>
+#include <windows.h>
 using namespace std;
 class StockPortfolioManager {
 private:
@@ -41,7 +42,7 @@ private:
                 }
             }
 
-            std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+            Sleep(1000);
             std::cout << "Update " << (i + 1) << "/5 completed...\n";
         }
         std::cout << "Real-time updates completed!\n";
