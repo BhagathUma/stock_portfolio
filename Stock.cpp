@@ -1,6 +1,7 @@
 #include "Stock.h"
 #include <iomanip>
 #include <stdexcept>
+#include <thread>
 
 // Default constructor
 Stock::Stock() : symbol(""), companyName(""), currentPrice(0.0), previousPrice(0.0) {}

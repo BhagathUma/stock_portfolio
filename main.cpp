@@ -3,8 +3,9 @@
 #include <memory>
 #include <limits>
 #include <random>
-#include <thread>
 #include <chrono>
+#include <iomanip>
+#include <thread>
 using namespace std;
 class StockPortfolioManager {
 private:

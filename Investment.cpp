@@ -1,5 +1,7 @@
 #include "Investment.h"
 #include <iomanip>
+#include <thread>
+
 #include <stdexcept>
 
 // Default constructor
